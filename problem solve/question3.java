@@ -25,7 +25,7 @@ public class question3 {
             if (year % 100 == 0){
 
             
-            
+            // check year is divesul by 400
            if(year % 400 == 0) {
                 isleap_year = true;
             }
