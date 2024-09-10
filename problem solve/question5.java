@@ -12,15 +12,18 @@ import java.util.*;
 
 public class question5 {
 // fibonaccu series
-public static void Fibonacciseries(int n){
-int a=0;
+public static void Fibonacciseries(int range){
+  // pre defiend the first and second term because i know first and second term 0,1
+int a = 0;
 int b = 1;
-int c = 0;
-for(int i = 0; i<n;i++){
+int c = a+b;
+while (a<range) {// check the iteam my range below 
     System.out.print(a + " ");
     a = b;
     b = c;
-    c = a+b;
+    c = a+b;// increase the value of c 
+
+   
 }
 }
 public static void main(String [] args){
