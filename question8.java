@@ -23,6 +23,7 @@ public class question8 {
         System.out.println("Enter number");
         long n = sc.nextLong();
         System.err.println(findFactorial(n));
+        sc.close();
        
     }
 }

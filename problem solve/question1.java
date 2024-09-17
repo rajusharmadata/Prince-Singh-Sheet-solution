@@ -19,5 +19,6 @@ public class question1 {
         } else {
             System.out.println("odd ");
         }
+        sc.close();
     }
 }

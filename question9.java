@@ -26,5 +26,6 @@ public class question9 {
         System.out.println("Enter number ");
         int num = sc.nextInt();
         System.out.println(calculatesum(num));
+        sc.close();
     }
 }

@@ -40,6 +40,7 @@ public class question7 {
         System.out.println("Enter number");
         int n = sc.nextInt();
         printPiramid(n);
+        sc.close();
     }
 
 }

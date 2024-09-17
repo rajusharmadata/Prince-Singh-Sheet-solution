@@ -27,7 +27,7 @@ public static void main (String [] args){
  System.out.println("Enter second  number");
  int b = sc.nextInt();
   System.out.println( "Greatest Common Divisor : "+findGCD(a, b));
-
+sc.close();
 }
     
 }
