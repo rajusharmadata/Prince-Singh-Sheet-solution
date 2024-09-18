@@ -12,7 +12,7 @@
  */
 public class question17 {
     public static void ArmstrongNUm() {
-
+        // brouthforce aproach
         for (int i = 1; i <= 500; i++) {
             int first = i;
             int ans = 0;
